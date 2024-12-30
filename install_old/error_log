@@ -1,0 +1,6 @@
+[16-Dec-2024 02:07:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'tblactivity_log' already exists in /home/designtech/smarterp.smartnetgt.com/install/install.class.php:93
+Stack trace:
+#0 /home/designtech/smarterp.smartnetgt.com/install/install.class.php(93): mysqli->query()
+#1 /home/designtech/smarterp.smartnetgt.com/install/index.php(13): Install->go()
+#2 {main}
+  thrown in /home/designtech/smarterp.smartnetgt.com/install/install.class.php on line 93

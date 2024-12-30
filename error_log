@@ -1,0 +1,28 @@
+[15-Dec-2024 21:17:13 America/Guatemala] URL: https://maluzts.sddsaddsa:2083/json-api/cpanel
+[15-Dec-2024 21:17:13 America/Guatemala] DATA: cpanel_jsonapi_user=designtech&cpanel_jsonapi_module=cpanel&cpanel_jsonapi_func=api1_get_cpanel_revision&cpanel_jsonapi_apiversion=1
+[15-Dec-2024 21:17:13 America/Guatemala] Authentication Header: Authorization: Basic ZGVzaWdudGVjaDpTQHAwVWx0ckA5MDEw
+
+
+[15-Dec-2024 21:19:06 America/Guatemala] URL: https://designtechgt.com:2083/json-api/cpanel
+[15-Dec-2024 21:19:06 America/Guatemala] DATA: cpanel_jsonapi_user=designtech&cpanel_jsonapi_module=cpanel&cpanel_jsonapi_func=api1_get_cpanel_revision&cpanel_jsonapi_apiversion=1
+[15-Dec-2024 21:19:06 America/Guatemala] Authentication Header: Authorization: Basic ZGVzaWdudGVjaDpTQHAwVWx0ckA5MDEw
+
+
+[15-Dec-2024 21:19:07 America/Guatemala] RESPONSE:
+ {"apiversion":"1","type":"event","module":"cpanel","func":"api1_get_cpanel_revision","source":"module","data":{"result":""},"preevent":{"result":1},"event":{"result":0,"reason":"cpanel::api1_get_cpanel_revision failed: The “api1_get_cpanel_revision” method is not available in the cpapi1 “cpanel” module."},"postevent":{"result":1},"error":"cpanel::api1_get_cpanel_revision failed: The “api1_get_cpanel_revision” method is not available in the cpapi1 “cpanel” module."}
+[15-Dec-2024 21:23:56 America/Guatemala] URL: https://designtechgt.com:2083/json-api/cpanel
+[15-Dec-2024 21:23:56 America/Guatemala] DATA: cpanel_jsonapi_user=designtech&cpanel_jsonapi_module=Mysql&cpanel_jsonapi_func=adddb&cpanel_jsonapi_apiversion=1&arg-0=company_seed_1
+[15-Dec-2024 21:23:56 America/Guatemala] Authentication Header: Authorization: Basic ZGVzaWdudGVjaDpTQHAwVWx0ckA5MDEw
+
+
+[15-Dec-2024 21:23:57 America/Guatemala] RESPONSE:
+ {"apiversion":"1","type":"event","module":"Mysql","func":"adddb","source":"module","data":{"result":""},"event":{"result":1},"postevent":{"result":1},"preevent":{"result":1}}
+[15-Dec-2024 21:23:57 America/Guatemala] URL: https://designtechgt.com:2083/json-api/cpanel
+[15-Dec-2024 21:23:57 America/Guatemala] DATA: cpanel_jsonapi_user=designtech&cpanel_jsonapi_module=Mysql&cpanel_jsonapi_func=adduserdb&cpanel_jsonapi_apiversion=1&arg-0=company_seed_1&arg-1=designtech_smarterp&arg-2=all
+[15-Dec-2024 21:23:57 America/Guatemala] Authentication Header: Authorization: Basic ZGVzaWdudGVjaDpTQHAwVWx0ckA5MDEw
+
+
+[15-Dec-2024 21:23:58 America/Guatemala] RESPONSE:
+ {"apiversion":"1","type":"event","module":"Mysql","func":"adduserdb","source":"module","data":{"result":"1"},"preevent":{"result":1},"event":{"result":1},"postevent":{"result":1}}
+[16-Dec-2024 04:36:12 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/designtech/smarterp.smartnetgt.com/index.php on line 322
+[16-Dec-2024 04:36:13 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/designtech/smarterp.smartnetgt.com/index.php on line 322
